@@ -21,9 +21,11 @@ quantified. If the position, width, or height of the boxes do not properly align
 adjust these by finding selecting new band centers with ginput and/or adjusting bandW/bandH.
 The function will return a matrix called band_values that will contain the quantified intensity values for 
 each band, in the order given by band_locations. For an example of how to run the code, see 
-�example_analysis.m.�
+“example_analysis.m.”
 
 Acknowledgments:
 We acknowledge Prof. Onn Brandman (Stanford University) for writing the original version of the 
-QuantifyWestern and getVal functions.
+QuantifyWestern and getVal functions. This work was supported by the joint efforts of The Michael J. Fox 
+Foundation for Parkinson’s Research (MJFF) and the Aligning Science Across Parkinson’s (ASAP) initiative. 
+MJFF administers the grants ASAP-000282 and ASAP- 024268 on behalf of ASAP and itself.
 
